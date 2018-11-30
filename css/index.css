@@ -1,0 +1,27 @@
+button {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 6px; 
+  outline-color: rgba(0, 0, 0, 0.24);
+  
+}
+button:hover {
+  background-color: grey;
+  color: white;
+}
+button:ac {
+  background-color: black;
+  
+}
+img {
+  border: 3px solid black;
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 50px;
+  width: 50%;
+  height: 50%
+}
