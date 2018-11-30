@@ -142,7 +142,7 @@ var gameOfThronesCharacters = [{
 {
   name: 'Jorah Mormont',
   portrait: 'img/jorah.png',
-  'pictures': 'img/pictures/jorah_mormont',
+  picture: 'img/pictures/jorah_mormont.jpg',
   house: 'mormont',
   bio: 'An exiled knight, former head of House Mormont and lord of Bear Island. He fled Westeros to escape execution for trading in slaves and took up work as a mercenary in the Free Cities, eventually entering the service of the last Targaryens.'
 },
