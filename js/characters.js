@@ -345,14 +345,69 @@ var gameOfThronesCharacters = [{
 }
 
 ];
-var parent = document.getElementById('charactersGot');
-var picture;
+var characterUrl = [
+  'https://gameofthrones.fandom.com/wiki/Jon_Snow',
+  'https://gameofthrones.fandom.com/wiki/Eddard_Stark',
+  'https://gameofthrones.fandom.com/wiki/Arya_Stark',
+  'https://gameofthrones.fandom.com/wiki/Sansa_Stark',
+  'https://gameofthrones.fandom.com/wiki/Robb_Stark',
+  'https://gameofthrones.fandom.com/wiki/Bran_Stark',
+  'https://gameofthrones.fandom.com/wiki/Rickon_Stark',
+  'https://gameofthrones.fandom.com/wiki/Catelyn_Stark',
+  'https://gameofthrones.fandom.com/wiki/Theon_Greyjoy',
+  'https://gameofthrones.fandom.com/wiki/Robert_Baratheon',
+  'https://gameofthrones.fandom.com/wiki/Cersei_Lannister',
+  'https://gameofthrones.fandom.com/wiki/Tywin_Lannister',
+  'https://gameofthrones.fandom.com/wiki/Jaime_Lannister',
+  'https://gameofthrones.fandom.com/wiki/Tyrion_Lannister',
+  'https://gameofthrones.fandom.com/wiki/Joffrey_Baratheon',
+  'https://gameofthrones.fandom.com/wiki/Tommen_Baratheon',
+  'https://gameofthrones.fandom.com/wiki/Myrcella_Baratheon',
+  'https://gameofthrones.fandom.com/wiki/Petyr_Baelish',
+  'https://gameofthrones.fandom.com/wiki/Varys',
+  'https://gameofthrones.fandom.com/wiki/Daenerys_Targaryen',
+  'https://gameofthrones.fandom.com/wiki/Jorah_Mormont',
+  'https://gameofthrones.fandom.com/wiki/Viserys_Targaryen',
+  'https://gameofthrones.fandom.com/wiki/Benjen_Stark',
+  'https://gameofthrones.fandom.com/wiki/Aemon',
+  'https://gameofthrones.fandom.com/wiki/Stannis_Baratheon',
+  'https://gameofthrones.fandom.com/wiki/Renly_Baratheon',
+  'https://gameofthrones.fandom.com/wiki/Bronn',
+  'https://gameofthrones.fandom.com/wiki/Drogo',
+  'https://gameofthrones.fandom.com/wiki/Hodor',
+  'https://gameofthrones.fandom.com/wiki/Luwin',
+  'https://gameofthrones.fandom.com/wiki/Lysa_Arryn',
+  'https://gameofthrones.fandom.com/wiki/Illyrio_Mopatis',
+  'https://gameofthrones.fandom.com/wiki/Pycelle',
+  'https://gameofthrones.fandom.com/wiki/Samwell_Tarly',
+  'https://gameofthrones.fandom.com/wiki/Sandor_Clegane',
+  'https://gameofthrones.fandom.com/wiki/Shae',
+  'https://gameofthrones.fandom.com/wiki/Alliser_Thorne',
+  'https://gameofthrones.fandom.com/wiki/Syrio_Forel',
+  'https://gameofthrones.fandom.com/wiki/Gendry',
+  'https://gameofthrones.fandom.com/wiki/Loras_Tyrell',
+  'https://gameofthrones.fandom.com/wiki/Barristan_Selmy',
+  'https://gameofthrones.fandom.com/wiki/Osha',
+  'https://gameofthrones.fandom.com/wiki/Jeor_Mormont',
+  'https://gameofthrones.fandom.com/wiki/Balon_Greyjoy',
+  'https://gameofthrones.fandom.com/wiki/Davos_Seaworth',
+  'https://gameofthrones.fandom.com/wiki/Melisandre',
+  'https://gameofthrones.fandom.com/wiki/Margaery_Tyrell',
+  'https://gameofthrones.fandom.com/wiki/Yara_Greyjoy',
+  'https://gameofthrones.fandom.com/wiki/Brienne_of_Tarth',
+  'https://gameofthrones.fandom.com/wiki/Ygritte',
+  'https://gameofthrones.fandom.com/wiki/Roose_Bolton'
+];
+var gotChar = document.getElementById('charactersGot');
+var pictureGot = '';
 
 function gotGallery() {
   for (var i = 0; i < gameOfThronesCharacters.length; i++) {
-    picture = new Image();
-    picture.src = gameOfThronesCharacters[i].picture;
-    parent.appendChild(picture);
+    pictureGot += `<div class='pictures__characters'><a href="${characterUrl[i]}">
+    <img src="${gameOfThronesCharacters[i].picture}" alt="${gameOfThronesCharacters[i].name}">
+    </a></div>`;
   }
+
+  gotChar.innerHTML = pictureGot;
 }
 gotGallery();
