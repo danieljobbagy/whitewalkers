@@ -1,3 +1,9 @@
+function deleteRow(r) {
+  var i = r.parentNode.parentNode.parentNode.rowIndex;
+  document.getElementById('characters').deleteRow(i);
+}
+
+
 function charactertable() {
   var charactersTableElement = document.querySelector('#characters');
   var tableRow;
@@ -21,7 +27,11 @@ function charactertable() {
                     <td>
                       <img src="/img/${firstname}.png" alt="${gameOfThronesCharacters[i].name}">
                       </td>
-                      <td> ${house} <img src ="/img/houses/${house}.png" alt = "${house}" >
+                      <td> ${house} <br><img src ="/img/houses/${house}.png" alt = "${house}" >
+                      </td>
+                      <td> ${gameOfThronesCharacters[i].bio}
+                      </td>
+                      <td> <button onclick="edit()">Edit</button><button onclick="deleteRow(this)">Delete</button>
                       </td>
                 </tr>
                     `;
