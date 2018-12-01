@@ -1,3 +1,5 @@
+/* globals gameOfThronesCharacters */
+
 function organisations() {
   var organisationsTableElement = document.querySelector('#organisations');
   var tableRow = '';
