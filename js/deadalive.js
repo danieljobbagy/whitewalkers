@@ -1,7 +1,6 @@
 function deadalive() {
   var deadAliveTable = document.querySelector('#deadoralive');
   var tableRow = '';
-
   for (var i = 0; i < gameOfThronesCharacters.length; i++) {
     tableRow += `
     <tr>
