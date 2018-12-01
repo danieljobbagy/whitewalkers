@@ -1,17 +1,14 @@
 function deleteRow(button) {
-  /* var i = r.parentNode.parentNode.parentNode.rowIndex;
-  document.getElementById('characters').deleteRow(i);*/
   var row = button.parentNode.parentNode;
   var table = document.getElementById('table');
   table.deleteRow(row.rowIndex);
 }
 
 
-function editBio(button) {
-  var cell = button.parentNode.firstChild;
+/* /function editBio(bioID) {
   var bio = document.getElementById('bioID');
   bio.setAttribute('contentEditable', 'true');
-}
+}*/
 
 function charactertable() {
   var charactersTableElement = document.querySelector('#characters');
@@ -34,9 +31,9 @@ function charactertable() {
                       </td>
                       <td> ${house} <br><img src ="/img/houses/${house}.png" alt="${house}" >
                       </td>
-                      <td id="${bioID}" contenteditable="false"> ${gameOfThronesCharacters[i].bio}
+                      <td id="bioID" contenteditable="false"> ${gameOfThronesCharacters[i].bio}
                       </td>
-                      <td> <button onclick="editBio(this)">Edit</button><input type="button" value="Delete" onclick="deleteRow(this)">
+                      <td> <button onclick="editBio(${i})">Edit</button><input type="button" value="Delete" onclick="deleteRow(this)">
                       </td>
                 </tr>
                     `;
