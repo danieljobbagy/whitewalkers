@@ -2,6 +2,7 @@ body {
   background: black;
   color: white;
   font-size: 20px;
+  font-family: 'Cinzel';
   max-width: 1140px;
   margin: auto;
   padding: 0 15px;
@@ -36,6 +37,7 @@ div.pictures__characters {
 
 th.houses__header__cells {
   font: 45px bold;
+  font-family: 'Cinzel';
   padding: 10px;
   table-layout: auto;
   text-align: center;
