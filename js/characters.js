@@ -398,19 +398,22 @@ var characterUrl = [
   'https://gameofthrones.fandom.com/wiki/Ygritte',
   'https://gameofthrones.fandom.com/wiki/Roose_Bolton'
 ];
-var gotChar = document.querySelector('#charactersGot');
-var pictureGot = '';
 
-function gotGallery() {
-  for (var i = 0; i < gameOfThronesCharacters.length; i++) {
-    pictureGot += `<div class='pictures__characters'><a href="${characterUrl[i]}">
+var gotCharacter = document.querySelector('#charactersGot');
+var pictureGot = '';
+// eslint-disable-next-line func-names
+window.onload = function () {
+  gotGallery();
+
+  function gotGallery() {
+    for (var i = 0; i < gameOfThronesCharacters.length; i++) {
+      pictureGot += `<div class='pictures__characters'><a href="${characterUrl[i]}">
     <img src="${gameOfThronesCharacters[i].picture}" alt="${gameOfThronesCharacters[i].name}">
     </a></div>`;
+    }
+    gotCharacter.innerHTML = pictureGot;
   }
-
-  gotChar.innerHTML = pictureGot;
-}
-gotGallery();
+};
 
 var gameOfThronesHouses = document.querySelector('#gotHouses');
 var gotTableRow = '';
@@ -425,98 +428,101 @@ var houseNum8 = 0;
 var houseNum9 = 0;
 
 function gotHouses() {
-  for (var i = 0; i < gameOfThronesCharacters.length; i++) {
+  for (var i = 0; i < gameOfThronesCharacters.length; i += 1) {
     if (gameOfThronesCharacters[i].house === 'baratheon') {
       houseNum1 += 1;
-      gotTableRow = `
-      <tr>
-      <td> <img src="${'img/houses/baratheon.png'}" alt='baratheonflag'></td>
-      <td>Baratheon</td>
-      <td>${houseNum1}</td>
-      </tr>
-      `;
     }
+    gotTableRow = `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/baratheon.png'}" alt='baratheonflag'></td>
+        <td class='houses__cells'>Baratheon</td>
+        <td class='houses__cells'>${houseNum1}</td>
+        </tr>
+        `;
     if (gameOfThronesCharacters[i].house === 'clegane') {
       houseNum2 += 1;
-      gotTableRow += `
-      <tr>
-      <td> <img src="${'img/houses/clegane.png'}" alt='cleganeflag'></td>
-      <td>Clegane</td>
-      <td>${houseNum2}</td>
-      </tr>
-      `;
     }
+    gotTableRow += `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/clegane.png'}" alt='cleganeflag'></td>
+        <td class='houses__cells'>Clegane</td>
+        <td class='houses__cells'>${houseNum2}</td>
+        </tr>
+        `;
     if (gameOfThronesCharacters[i].house === 'greyjoy') {
       houseNum3 += 1;
-      gotTableRow += `
-      <tr>
-      <td> <img src="${'img/houses/greyjoy.png'}" alt='greyjoyflag'></td>
-      <td>Greyjoy</td>
-      <td>${houseNum3}</td>
-      </tr>
-      `;
     }
+    gotTableRow += `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/greyjoy.png'}" alt='greyjoyflag'></td>
+        <td class='houses__cells'>Greyjoy</td>
+        <td class='houses__cells'>${houseNum3}</td>
+        </tr>
+        `;
     if (gameOfThronesCharacters[i].house === 'lannister') {
       houseNum4 += 1;
-      gotTableRow += `
-      <tr>
-      <td> <img src="${'img/houses/lannister.png'}" alt='lannisterflag'></td>
-      <td>Lannister</td>
-      <td>${houseNum4}</td>
-      </tr>
-      `;
     }
+    gotTableRow += `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/lannister.png'}" alt='lannisterflag'></td>
+        <td class='houses__cells'>Lannister</td>
+        <td class='houses__cells'>${houseNum4}</td>
+        </tr>
+        `;
     if (gameOfThronesCharacters[i].house === 'mormont') {
       houseNum5 += 1;
-      gotTableRow += `
-      <tr>
-      <td> <img src="${'img/houses/mormont.png'}" alt='mormontflag'></td>
-      <td>Mormont</td>
-      <td>${houseNum5}</td>
-      </tr>
-      `;
     }
+    gotTableRow += `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/mormont.png'}" alt='mormontflag'></td>
+        <td class='houses__cells'>Mormont</td>
+        <td class='houses__cells'>${houseNum5}</td>
+        </tr>
+        `;
     if (gameOfThronesCharacters[i].house === 'stark') {
       houseNum6 += 1;
-      gotTableRow += `
-      <tr>
-      <td> <img src="${'img/houses/stark.png'}" alt='starkflag'></td>
-      <td>Stark</td>
-      <td>${houseNum6}</td>
-      </tr>
-      `;
     }
+    gotTableRow += `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/stark.png'}" alt='starkflag'></td>
+        <td class='houses__cells'>Stark</td>
+        <td class='houses__cells'>${houseNum6}</td>
+        </tr>
+        `;
     if (gameOfThronesCharacters[i].house === 'targaryen') {
       houseNum7 += 1;
-      gotTableRow += `
-      <tr>
-      <td> <img src="${'img/houses/targaryen.png'}" alt='targaryenflag'></td>
-      <td>Targaryen</td>
-      <td>${houseNum7}</td>
-      </tr>
-      `;
     }
+    gotTableRow += `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/targaryen.png'}" alt='targaryenflag'></td>
+        <td class='houses__cells'>Targaryen</td>
+        <td class='houses__cells'>${houseNum7}</td>
+        </tr>
+        `;
     if (gameOfThronesCharacters[i].house === 'tarly') {
       houseNum8 += 1;
-      gotTableRow += `
-      <tr>
-      <td> <img src="${'img/houses/tarly.png'}" alt='tarlyflag'></td>
-      <td>Tarly</td>
-      <td>${houseNum8}</td>
-      </tr>
-      `;
     }
+    gotTableRow += `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/tarly.png'}" alt='tarlyflag'></td>
+        <td class='houses__cells'>Tarly</td>
+        <td class='houses__cells'>${houseNum8}</td>
+        </tr>
+        `;
     if (gameOfThronesCharacters[i].house === 'tully') {
       houseNum9 += 1;
-      gotTableRow += `
-      <tr>
-      <td> <img src="${'img/houses/tully.png'}" alt='tullyflag'></td>
-      <td>Tully</td>
-      <td>${houseNum9}</td>
-      </tr>
-      `;
     }
+    gotTableRow += `
+        <tr class='houses__rows'>
+        <td class='houses__cells'> <img src="${'img/houses/tully.png'}" alt='tullyflag'></td>
+        <td class='houses__cells'>Tully</td>
+        <td class='houses__cells'>${houseNum9}</td>
+        </tr>
+        `;
   }
   gameOfThronesHouses.innerHTML = gotTableRow;
+  gameOfThronesHouses.innerHTML = gotTableRow;
 }
+
+
 gotHouses();
