@@ -4,7 +4,7 @@ function charactersPortrait() {
   for (var i = 0; i < gameOfThronesCharacters.length; i += 1) {
     portraitRow +=
       ` 
-                    <div>
+                    <div class="portre_main_boxes">
                         <img src="${gameOfThronesCharacters[i].portrait}" alt="${gameOfThronesCharacters[i].name}"> <br> 
                         ${gameOfThronesCharacters[i].name}
                         </div>

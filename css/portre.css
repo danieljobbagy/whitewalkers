@@ -28,22 +28,23 @@ button:hover {
 
 }
 
-div.portre_main {
+.portre_main {
     box-sizing: border-box;
     float: left;
     width: 33.33%;
 
 }
 
-div.portre_main img {
+.portre_main_boxes {
     border: solid white 1px;
     border-radius: 3%;
+    float: left;
     height: 150px;
     margin: 5px;
     padding: 40px;
 
 }
 
-div.portre_main__characters {
+.portre_main__characters {
     display: inline;
 }
