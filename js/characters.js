@@ -401,7 +401,7 @@ var characterUrl = [
 
 var gotCharacter = document.querySelector('#charactersGot');
 var pictureGot = '';
-// eslint-disable-next-line func-names
+
 window.onload = function () {
   gotGallery();
 
@@ -433,6 +433,11 @@ function gotHouses() {
       houseNum1 += 1;
     }
     gotTableRow = `
+        <thead>
+      <th class='houses__header__cells'>Címer</th>
+      <th class='houses__header__cells'>Név</th>
+      <th class='houses__header__cells'>Fő</th>
+      </thead>
         <tr class='houses__rows'>
         <td class='houses__cells'> <img src="${'img/houses/baratheon.png'}" alt='baratheonflag'></td>
         <td class='houses__cells'>Baratheon</td>
@@ -521,8 +526,5 @@ function gotHouses() {
         `;
   }
   gameOfThronesHouses.innerHTML = gotTableRow;
-  gameOfThronesHouses.innerHTML = gotTableRow;
 }
-
-
 gotHouses();

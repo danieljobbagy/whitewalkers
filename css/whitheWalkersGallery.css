@@ -33,3 +33,19 @@ div.pictures img:hover {
 div.pictures__characters {
   display: inline;
 }
+
+th.houses__header__cells {
+  font: 45px bold;
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
+
+td.houses__cells {
+  font-size: 32px;
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
