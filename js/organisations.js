@@ -4,9 +4,6 @@ function organisations() {
   var nightwatch = 0;
   var royalguard = 0;
   for (var i = 0; i < gameOfThronesCharacters.length; i += 1) {
-    // if (gameOfThronesCharacters[i].organization === undefined) {
-    // continue;
-    // }
     if (gameOfThronesCharacters[i].organization === 'nightwatch') {
       nightwatch += 1;
     }
