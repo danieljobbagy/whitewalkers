@@ -20,31 +20,38 @@ button {
     border-radius: 6px;
     outline-color: rgba(8, 6, 31, 0.863);
     font-size: 30px;
-
 }
 
 button:hover {
     color: rgb(141, 27, 27);
-
 }
 
 .portre_main {
     box-sizing: border-box;
-    float: left;
-    width: 33.33%;
-
 }
 
 .portre_main_boxes {
     border: solid white 1px;
     border-radius: 3%;
     float: left;
-    height: 150px;
+    font-size: 15px;
+    height: 100px;
     margin: 5px;
-    padding: 40px;
-
+    padding: 30px;
+    position: justify;
+    text-align: center;
 }
 
 .portre_main__characters {
     display: inline;
+}
+
+.footer {
+    background: #111;
+    color: #888;
+    text-align: center;
+}
+
+.footer a {
+    color: #ddd;
 }
