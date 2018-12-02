@@ -9,8 +9,12 @@ body {
 
 body header {
   font-size: 100px;
+  color: white;
 }
 
+a:visited {
+  color: white;
+}
 
 .menuButton {
   width: 25%;
@@ -207,15 +211,6 @@ div.portre_main_boxes {
   display: inline;
 }
 
-.footer {
-  background: #111;
-  color: #888;
-  text-align: center;
-}
-
-.footer a {
-  color: #ddd;
-}
 
 a.got-menu {
   width: 25%;
