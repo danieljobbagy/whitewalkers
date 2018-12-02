@@ -21,7 +21,7 @@ body header {
 }
 
 
-button.menuButton {
+.menuButton {
   width: 25%;
   float: left;
   box-sizing: border-box;
@@ -36,6 +36,7 @@ button.menuButton {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 a.got-menu:hover {
   color: rgb(100, 100, 100);
@@ -44,12 +45,19 @@ menu:hover {
 =======
 button.menuButton:hover {
 >>>>>>> f6f74a7d3e77c5ade10fb3432f15baf1f7a8efc2
+=======
+.menuButton:hover {
+>>>>>>> f3ea3cfb04bcaca1bdd92dd4950cd34289bd373a
   color: rgb(141, 27, 27);
 >>>>>>> 0264c35e62fe302d6838eb0ff06eaa1425e1ae47
 
 }
 
+<<<<<<< HEAD
 img.wwPic {
+=======
+img {
+>>>>>>> f3ea3cfb04bcaca1bdd92dd4950cd34289bd373a
   border: 3px solid black;
   display: block;
   position: relative;
