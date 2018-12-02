@@ -343,9 +343,4 @@ var gameOfThronesCharacters = [
     bio: 'Roose Bolton is the head of House Bolton and Lord of the Dreadfort. Though mild-mannered, he is cold, calculating, and capable of great cruelty. He speaks softly, never raising his voice, forcing those who listen to do so intently.[2] He receives regular leechings, which he believes to improve his health.'
   }
 
-<<<<<<< HEAD
 ];
-
-=======
-];
->>>>>>> featureAnita
