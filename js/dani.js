@@ -46,6 +46,7 @@ function charactertable() {
 }
 
 charactertable();
+<<<<<<< HEAD
 
 function myFunction() {
   document.getElementById('myDropdown').classList.toggle('show');
@@ -63,3 +64,5 @@ window.onclick = function (event) {
     }
   }
 };
+=======
+>>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2

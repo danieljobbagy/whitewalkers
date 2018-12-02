@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 a.got-menu {
 =======
 menu {
@@ -9,6 +10,15 @@ menu {
   box-sizing: border-box;
   background-color: rgb(15, 15, 19);
 =======
+=======
+a.got-menu {
+  background-color: rgb(15, 15, 19);
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+}
+
+>>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
 body {
   background: black;
   color: white;
@@ -16,12 +26,17 @@ body {
   margin: auto;
   padding: 0 15px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
 body header {
   font-size: 100px;
 }
 
 
 .menuButton {
+<<<<<<< HEAD
   width: 25%;
   float: left;
   box-sizing: border-box;
@@ -65,4 +80,36 @@ img {
   top: 50px;
   width: 50%;
   height: 50%
+=======
+  background-color: rgb(68, 68, 70);
+  border: 2px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+  float: left;
+  font-family: 'Cinzel';
+  font-size: 30px;
+  color: white;
+  outline-color: rgba(8, 6, 31, 0.863);
+  width: 25%;
+}
+
+a.got-menu:hover {
+  color: rgb(100, 100, 100);
+}
+
+button.menuButton:hover {
+  opacity: 0.6;
+}
+
+img.wwPic {
+  border: 3px solid black;
+  border-radius: 20px;
+  display: block;
+  height: 50%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  width: 50%;
+
+>>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
 }

@@ -66,6 +66,13 @@ div.pictures__characters {
   display: inline;
 }
 
+<<<<<<< HEAD
+=======
+div.characters table {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+>>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
 }
 
 th.houses__header__cells {
@@ -237,4 +244,40 @@ img.wwPic {
   top: 50px;
   width: 100%;
   height: 100%
+<<<<<<< HEAD
+=======
+}
+
+.menuButton {
+  background-color: rgb(70, 70, 70);
+  border: 2px solid white;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: white;
+  float: left;
+  font-family: 'Cinzel';
+  font-size: 30px;
+  height: 50px;
+  outline-color: rgba(8, 6, 31, 0.863);
+  text-align: center;
+  text-decoration: none;
+  width: 275px;
+}
+
+a.got-menu:hover {
+  color: rgb(100, 100, 100);
+}
+
+button.menuButton:hover {
+  opacity: 0.3;
+}
+
+.characters__deadalive__table {
+  font-size: 20px;
+  font-family: 'Cinzel';
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 100%;
+>>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
 }
