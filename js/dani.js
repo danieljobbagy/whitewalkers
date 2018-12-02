@@ -1,16 +1,15 @@
+/* globals gameOfThronesCharacters */
+
 function deleteRow(button) {
-  /* var i = r.parentNode.parentNode.parentNode.rowIndex;
-  document.getElementById('characters').deleteRow(i);*/
   var row = button.parentNode.parentNode;
   var table = document.getElementById('table');
   table.deleteRow(row.rowIndex);
 }
 
-
-function editBio(button) {
-  var cell = button.parentNode.firstChild;
-  var bio = document.getElementById('bioID');
-  bio.setAttribute('contentEditable', 'true');
+function editBio(no) {
+  var bio = document.getElementById('bio' + no);
+  var biodata = bio.innerHTML;
+  bio.innerHTML = `<textarea rows="4" cols="100">${biodata}</textarea>`;
 }
 
 function charactertable() {
@@ -18,7 +17,7 @@ function charactertable() {
   var tableRow = '';
   for (var i = 0; i < gameOfThronesCharacters.length; i += 1) {
     var house;
-    var bioID = `bio${i}`;
+    // var bioID = `bio${i}`;
     if (gameOfThronesCharacters[i].house === undefined) {
       house = '';
     } else {
@@ -34,9 +33,9 @@ function charactertable() {
                       </td>
                       <td> ${house} <br><img src ="/img/houses/${house}.png" alt="${house}" >
                       </td>
-                      <td id="${bioID}" contenteditable="false"> ${gameOfThronesCharacters[i].bio}
+                      <td id="bio${i}"> ${gameOfThronesCharacters[i].bio}
                       </td>
-                      <td> <button onclick="editBio(this)">Edit</button><input type="button" value="Delete" onclick="deleteRow(this)">
+                      <td> <button onclick="editBio(${i})">Edit</button><input type="button" value="Delete" onclick="deleteRow(this)">
                       </td>
                 </tr>
                     `;
