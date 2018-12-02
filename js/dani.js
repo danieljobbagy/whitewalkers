@@ -17,7 +17,7 @@ function charactertable() {
   var tableRow = '';
   for (var i = 0; i < gameOfThronesCharacters.length; i += 1) {
     var house;
-    var bioID = `bio${i}`;
+    // var bioID = `bio${i}`;
     if (gameOfThronesCharacters[i].house === undefined) {
       house = '';
     } else {
