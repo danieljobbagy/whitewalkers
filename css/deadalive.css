@@ -1,3 +1,9 @@
-#deadoralive {
- background-color: 1px black solid;
+body {
+ background-color:  black;
+ color: white;
+}
+tbody, th {
+  position: relative;
+  margin: auto;
+  width: 50%;
 }
