@@ -1,0 +1,240 @@
+body {
+  background: black;
+  color: white;
+  font-family: 'Cinzel';
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+body header {
+  font-size: 100px;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.menuButton {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  background-color: rgb(68, 68, 70);
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  outline-color: rgba(8, 6, 31, 0.863);
+  font-size: 30px;
+
+}
+
+.menuButton:hover {
+  color: rgb(141, 27, 27);
+
+}
+
+.container__header {
+  font-size: 50px;
+  text-align: center;
+}
+
+div.pictures {
+  box-sizing: border-box;
+}
+
+div.pictures img {
+  border: solid rgb(20, 20, 20) 1px;
+  border-radius: 3%;
+  height: 150px;
+  margin: 5px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  width: 23%;
+
+}
+
+div.pictures img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+div.pictures__characters {
+  display: inline;
+}
+
+}
+
+th.houses__header__cells {
+  font: 45px bold;
+  font-family: 'Cinzel';
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
+
+td.houses__cells {
+  font-size: 32px;
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
+
+th.organisations__head__cells {
+  font: 45px bold;
+  font-family: 'Cinzel';
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
+
+td.organisations__cells {
+  font-size: 32px;
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
+
+th.character__table_headcells {
+  font-size: 30px;
+}
+
+td.characters__table__cells-name {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 50px;
+}
+
+td.characters__table__cells-portrait {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 50px;
+}
+
+td.characters__table__cells-flag {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 50px;
+}
+
+td.characters__table__cells-bio {
+  font-size: 15px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 600px;
+}
+
+td.characters__table__cells-buttons {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 150px;
+}
+
+.characters__table__buttons-edit {
+  background-color: rgb(80, 80, 80);
+  border: white solid 1px;
+  border-radius: 10%;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+}
+
+.characters__table__buttons-delete {
+  background-color: rgb(80, 80, 80);
+  border: white solid 1px;
+  border-radius: 10%;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+
+}
+
+body header {
+  font-size: 100px;
+}
+
+button {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  background-color: rgb(68, 68, 70);
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  outline-color: rgba(8, 6, 31, 0.863);
+  font-size: 30px;
+}
+
+button:hover {
+  color: rgb(141, 27, 27);
+}
+
+.portre_main {
+  box-sizing: border-box;
+}
+
+div.portre_main_boxes {
+  border: solid white 1px;
+  border-radius: 3%;
+  float: left;
+  font-family: 'Cinzel';
+  font-size: 15px;
+  height: 130px;
+  margin: 5px;
+  padding: 30px;
+  position: justify;
+  text-align: center;
+  width: 10%;
+}
+
+.portre_main__characters {
+  display: inline;
+}
+
+
+a.got-menu {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  background-color: rgb(15, 15, 19);
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  outline-color: rgba(8, 6, 31, 0.863);
+  text-align: center;
+}
+
+a.got-menu:hover {
+  color: rgb(100, 100, 100);
+
+}
+
+img.wwPic {
+  border: 3px solid black;
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 50px;
+  width: 100%;
+  height: 100%
+}
