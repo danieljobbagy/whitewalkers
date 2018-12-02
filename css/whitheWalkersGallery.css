@@ -4,7 +4,7 @@ body {
   font-family: 'Cinzel';
   max-width: 1140px;
   margin: auto;
-  padding: 0 15px;
+  padding: 0 15px 60px 15px;
 }
 
 body header {
@@ -66,13 +66,10 @@ div.pictures__characters {
   display: inline;
 }
 
-<<<<<<< HEAD
-=======
 div.characters table {
   box-sizing: border-box;
   width: 100%;
   text-align: center;
->>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
 }
 
 th.houses__header__cells {
@@ -196,8 +193,11 @@ button:hover {
   color: rgb(141, 27, 27);
 }
 
+
+
 .portre_main {
   box-sizing: border-box;
+  padding: 0 15px 1750px 15px;
 }
 
 div.portre_main_boxes {
@@ -216,6 +216,7 @@ div.portre_main_boxes {
 
 .portre_main__characters {
   display: inline;
+
 }
 
 
@@ -244,8 +245,6 @@ img.wwPic {
   top: 50px;
   width: 100%;
   height: 100%
-<<<<<<< HEAD
-=======
 }
 
 .menuButton {
@@ -279,5 +278,42 @@ button.menuButton:hover {
   table-layout: auto;
   text-align: center;
   width: 100%;
->>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
+}
+
+body footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  padding-top: 5px;
+  text-align: center;
+  z-index: 1000000;
+}
+
+.footer_a {
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.footer_b {
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.footer_c {
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.footer_d {
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 10px;
+  text-align: center;
 }

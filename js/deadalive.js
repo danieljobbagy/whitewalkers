@@ -4,11 +4,7 @@ function deadalive() {
   var temp;
   var dead = 0;
   var alive = 0;
-<<<<<<< HEAD
-  for (var i = gameOfThronesCharacters.length-1; i > 0; i--) {
-=======
   for (var i = gameOfThronesCharacters.length - 1; i > 0; i--) {
->>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
     for (var j = 0; j < i; j++) {
       if (gameOfThronesCharacters[j].name > gameOfThronesCharacters[j + 1].name) {
         temp = gameOfThronesCharacters[j];
@@ -17,11 +13,7 @@ function deadalive() {
       }
     }
   }
-<<<<<<< HEAD
-  for ( i = 0; i < gameOfThronesCharacters.length; i++) {
-=======
   for (i = 0; i < gameOfThronesCharacters.length; i++) {
->>>>>>> 72392f581af14f6aa3e96a66e630729bd05b15d2
     if (gameOfThronesCharacters[i].dead === true) {
       dead++;
       tableRow += `
@@ -42,11 +34,9 @@ function deadalive() {
   }
   tableRow += `
   <tr></tr>
+ 
   <tr>
-    <td>Össz:</td>
-  </tr>
-  <tr>
-    <td>${alive}</td>
+    <td>Összesen: ${alive}</td>
     <td>${dead}</td>
   </tr> `;
   deadAliveTable.innerHTML = tableRow;
