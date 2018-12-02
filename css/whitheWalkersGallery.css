@@ -1,7 +1,11 @@
 body {
   background: black;
+  color: white;
+  font-size: 20px;
+  font-family: 'Cinzel';
   max-width: 1140px;
   margin: auto;
+  padding: 0 15px;
 }
 
 div.pictures {
@@ -9,22 +13,41 @@ div.pictures {
 }
 
 div.pictures img {
-  border: solid black 2px;
+  border: solid rgb(20, 20, 20) 1px;
   border-radius: 3%;
   height: 150px;
   margin: 5px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
   width: 23%;
 
 }
 
 div.pictures img:hover {
   cursor: pointer;
-  background-color: white;
-  opacity: 0.6;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-div>div {
+div.pictures__characters {
   display: inline;
+}
 
+th.houses__header__cells {
+  font: 45px bold;
+  font-family: 'Cinzel';
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
 
+td.houses__cells {
+  font-size: 32px;
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
 }
