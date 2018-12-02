@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 var gameOfThronesCharacters = [
   { name: 'Jon Snow',
+=======
+var gameOfThronesCharacters = [{
+    name: 'Jon Snow',
+>>>>>>> featureAnita
     portrait: 'img/jon.png',
     picture: 'img/pictures/jon_snow.jpg',
     bio: 'Jon is the bastard child of Ned Stark of Winterfell and a unkwnow woman. Soon after his marriage, Ned Stark leaved his home to go to fight on the war of the usurper, and returned home carrying a infant that was supposedly his own',
     organization: 'nightwatch'
   },
+<<<<<<< HEAD
   { name: 'Ned Stark',
+=======
+  {
+    name: 'Ned Stark',
+>>>>>>> featureAnita
     portrait: 'img/ned.png',
     picture: 'img/pictures/ned_stark.jpg',
     bio: "Eddard 'Ned' Stark is the head of House Stark, Lord of Winterfell, and Warden of the North. He is a friend to King Robert Baratheon, whom he was raised with and helped to win the Iron Throne, and is eventually named his Hand. ",
@@ -343,5 +353,9 @@ var gameOfThronesCharacters = [
     bio: 'Roose Bolton is the head of House Bolton and Lord of the Dreadfort. Though mild-mannered, he is cold, calculating, and capable of great cruelty. He speaks softly, never raising his voice, forcing those who listen to do so intently.[2] He receives regular leechings, which he believes to improve his health.'
   }
 
+<<<<<<< HEAD
 ];
 
+=======
+];
+>>>>>>> featureAnita
