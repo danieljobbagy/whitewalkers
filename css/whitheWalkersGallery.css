@@ -35,6 +35,8 @@ div.pictures__characters {
   display: inline;
 }
 
+}
+
 th.houses__header__cells {
   font: 45px bold;
   font-family: 'Cinzel';
@@ -52,12 +54,44 @@ td.houses__cells {
   width: 500px;
 }
 
-td.characters__table__cells {
+td.characters__table__cells-name {
   font-size: 20px;
   padding: 5px;
   table-layout: auto;
   text-align: center;
-  width: 200px;
+  width: 50px;
+}
+
+td.characters__table__cells-portrait {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 50px;
+}
+
+td.characters__table__cells-flag {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 50px;
+}
+
+td.characters__table__cells-bio {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 600px;
+}
+
+td.characters__table__cells-buttons {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 150px;
 }
 
 body header {
@@ -84,11 +118,12 @@ button:hover {
   box-sizing: border-box;
 }
 
-.portre_main_boxes {
+div.portre_main_boxes {
   border: solid white 1px;
   border-radius: 3%;
   float: left;
-  font-size: 15px;
+  font-family: 'Cinzel'
+    font-size: 15px;
   height: 100px;
   margin: 5px;
   padding: 30px;

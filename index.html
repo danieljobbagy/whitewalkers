@@ -6,18 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http - equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/dropdown.css" />
   <title> White Walkers </title>
   <link rel="stylesheet" href="css/whitheWalkersGallery.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 </head>
 
 <body>
-  <footer>
-    <a class="got-menu" href="characters.html">Karakterek</a>
-    <a class="got-menu" href="dropdown.html">Statisztika</a>
-    <a class="got-menu" href="portre.html">Portré</a>
-    <a class="got-menu" href="whitewhalkers2.html">Galéria</a>
-  </footer>
-  <img class="wwPic" src="img/whitewalkers1.jpg">
+  <div class="container">
+    <nav class="menu">
+      <a href="characters.html">Karakterek</a>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Statisztika</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="deadalive.html">Élő/Halott karakterek </a>
+          <a href="whitewalkersHouses.html">Házak</a>
+          <a href="organisations.html">Szervezetek</a>
+        </div>
+      </div>
+      <a href="portre.html">Portré</a>
+      <a href="whitewhalkers2.html">Galéria</a>
+    </nav>
+    <main>
+
+      <img class="wwPic" src="img/whitewalkers1.jpg">
+    </main>
+    <script src="js/dropdown.js"></script>
 </body>
 
 </html>

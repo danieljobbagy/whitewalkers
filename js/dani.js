@@ -27,15 +27,15 @@ function charactertable() {
     tableRow +=
       `
                 <tr>
-                    <td class='characters__table__cells'>${gameOfThronesCharacters[i].name}</td>
-                    <td class='characters__table__cells'>
+                    <td class='characters__table__cells-name'>${gameOfThronesCharacters[i].name}</td>
+                    <td class='characters__table__cells-portrait'>
                       <img src="${gameOfThronesCharacters[i].portrait}" alt="${gameOfThronesCharacters[i].name}">
                       </td>
-                      <td class='characters__table__cells'> ${house} <br><img src ="img/houses/${house}.png" alt="${house}" >
+                      <td class='characters__table__cells-flag'> ${house} <br><img src ="img/houses/${house}.png" alt="${house}" >
                       </td>
-                      <td class='characters__table__cells' id="bio${i}"> ${gameOfThronesCharacters[i].bio}
+                      <td class='characters__table__cells-bio' id="bio${i}"> ${gameOfThronesCharacters[i].bio}
                       </td>
-                      <td class='characters__table__cells'> <button onclick="editBio(${i})">Edit</button><input type="button" value="Delete" onclick="deleteRow(this)">
+                      <td class='characters__table__cells-buttons'> <button onclick="editBio(${i})">Edit</button><input type="button" value="Delete" onclick="deleteRow(this)">
                       </td>
                 </tr>
                     `;

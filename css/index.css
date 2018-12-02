@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 a.got-menu {
+=======
+menu {
+>>>>>>> 0264c35e62fe302d6838eb0ff06eaa1425e1ae47
   width: 25%;
   float: left;
   box-sizing: border-box;
@@ -9,9 +13,14 @@ a.got-menu {
   outline-color: rgba(8, 6, 31, 0.863);
   text-align: center;
 }
+<<<<<<< HEAD
 
 a.got-menu:hover {
   color: rgb(100, 100, 100);
+=======
+menu:hover {
+  color: rgb(141, 27, 27);
+>>>>>>> 0264c35e62fe302d6838eb0ff06eaa1425e1ae47
 
 }
 
