@@ -244,16 +244,19 @@ img.wwPic {
 }
 
 .menuButton {
-  background-color: rgb(68, 68, 70);
-  border: 2px solid black;
+  background-color: rgb(70, 70, 70);
+  border: 2px solid white;
   border-radius: 6px;
   box-sizing: border-box;
+  color: white;
   float: left;
   font-family: 'Cinzel';
   font-size: 30px;
-  color: white;
+  height: 50px;
   outline-color: rgba(8, 6, 31, 0.863);
-  width: 25%;
+  text-align: center;
+  text-decoration: none;
+  width: 275px;
 }
 
 a.got-menu:hover {
@@ -261,7 +264,7 @@ a.got-menu:hover {
 }
 
 button.menuButton:hover {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .characters__deadalive__table {
