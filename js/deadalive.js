@@ -4,7 +4,7 @@ function deadalive() {
   var temp;
   var dead = 0;
   var alive = 0;
-  for (var i = gameOfThronesCharacters.length-1; i > 0; i--) {
+  for (var i = gameOfThronesCharacters.length - 1; i > 0; i--) {
     for (var j = 0; j < i; j++) {
       if (gameOfThronesCharacters[j].name > gameOfThronesCharacters[j + 1].name) {
         temp = gameOfThronesCharacters[j];
@@ -13,7 +13,7 @@ function deadalive() {
       }
     }
   }
-  for ( i = 0; i < gameOfThronesCharacters.length; i++) {
+  for (i = 0; i < gameOfThronesCharacters.length; i++) {
     if (gameOfThronesCharacters[i].dead === true) {
       dead++;
       tableRow += `

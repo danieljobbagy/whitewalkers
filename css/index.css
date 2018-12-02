@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 a.got-menu {
-=======
-menu {
->>>>>>> 0264c35e62fe302d6838eb0ff06eaa1425e1ae47
-  width: 25%;
-  float: left;
-  box-sizing: border-box;
   background-color: rgb(15, 15, 19);
-=======
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+}
+
 body {
   background: black;
   color: white;
@@ -16,53 +12,41 @@ body {
   margin: auto;
   padding: 0 15px;
 }
+
 body header {
   font-size: 100px;
 }
 
 
 .menuButton {
-  width: 25%;
-  float: left;
-  box-sizing: border-box;
   background-color: rgb(68, 68, 70);
->>>>>>> f6f74a7d3e77c5ade10fb3432f15baf1f7a8efc2
-  color: white;
   border: 2px solid black;
   border-radius: 6px;
-  outline-color: rgba(8, 6, 31, 0.863);
+  box-sizing: border-box;
+  float: left;
+  font-family: 'Cinzel';
   font-size: 30px;
-
+  color: white;
+  outline-color: rgba(8, 6, 31, 0.863);
+  width: 25%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 a.got-menu:hover {
   color: rgb(100, 100, 100);
-=======
-menu:hover {
-=======
-button.menuButton:hover {
->>>>>>> f6f74a7d3e77c5ade10fb3432f15baf1f7a8efc2
-=======
-.menuButton:hover {
->>>>>>> f3ea3cfb04bcaca1bdd92dd4950cd34289bd373a
-  color: rgb(141, 27, 27);
->>>>>>> 0264c35e62fe302d6838eb0ff06eaa1425e1ae47
-
 }
 
-<<<<<<< HEAD
+button.menuButton:hover {
+  opacity: 0.6;
+}
+
 img.wwPic {
-=======
-img {
->>>>>>> f3ea3cfb04bcaca1bdd92dd4950cd34289bd373a
   border: 3px solid black;
+  border-radius: 20px;
   display: block;
-  position: relative;
+  height: 50%;
   margin: auto;
+  position: relative;
   top: 50px;
   width: 50%;
-  height: 50%
+
 }

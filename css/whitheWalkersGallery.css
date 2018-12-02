@@ -66,10 +66,10 @@ div.pictures__characters {
   display: inline;
 }
 
-div.characters table{
+div.characters table {
   box-sizing: border-box;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 th.houses__header__cells {
@@ -241,4 +241,34 @@ img.wwPic {
   top: 50px;
   width: 100%;
   height: 100%
+}
+
+.menuButton {
+  background-color: rgb(68, 68, 70);
+  border: 2px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+  float: left;
+  font-family: 'Cinzel';
+  font-size: 30px;
+  color: white;
+  outline-color: rgba(8, 6, 31, 0.863);
+  width: 25%;
+}
+
+a.got-menu:hover {
+  color: rgb(100, 100, 100);
+}
+
+button.menuButton:hover {
+  opacity: 0.6;
+}
+
+.characters__deadalive__table {
+  font-size: 20px;
+  font-family: 'Cinzel';
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 100%;
 }
