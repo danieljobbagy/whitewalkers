@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Galéria</title>
+  <link rel="stylesheet" href="css/whitheWalkersGallery.css">
+  <link rel="stylesheet" type="text/css" href="css/dropdown.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <button class="menuButton"><a href="index.html">Főoldal</a></button>
+      <button class="menuButton"><a href="characters.html">Karakterek</a></button>
+      <nav id="primary_nav_wrap">
+        <ul>
+          <li><a class="menuButton" href="#">Statisztika</a>
+            <ul>
+              <li><a href="deadalive.html">Élő/Halott karakterek </a></li>
+              <li><a href="whitewalkersHouses.html">Házak</a></li>
+              <li><a href="organisations.html">Szervezetek</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <button class="menuButton"><a href="portre.html">Portré</a></button>
+    </nav>
+  </div>
+  <br>
+  <br>
+
+  <header class="container__header">
+    Galéria
+  </header>
+  <br>
+  <br>
+  <main>
+    <div id="charactersGot" class="pictures"></div>
+    <script src="js/characters.js"></script>
+    <script src="js/anciGameOfThrones.js"></script>
+  </main>
+
+</body>
+
+</html>
