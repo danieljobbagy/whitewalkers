@@ -12,8 +12,8 @@ function organisations() {
     tableRow =
       `
                 <tr>
-                    <td>Nightwatch</td>
-                    <td>${nightwatch}
+                    <td class='organisations__cells'>Nightwatch</td>
+                    <td class='organisations__cells'>${nightwatch}
                 </tr>
                     `;
     if (gameOfThronesCharacters[i].organization === 'royalguard') {
@@ -22,8 +22,8 @@ function organisations() {
     tableRow +=
       `
                 <tr>
-                    <td>Royalguard</td>
-                    <td>${royalguard}
+                    <td class='organisations__cells'>Royalguard</td>
+                    <td class='organisations__cells'>${royalguard}
                 </tr>
                     `;
   }

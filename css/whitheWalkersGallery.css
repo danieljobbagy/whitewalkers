@@ -8,6 +8,11 @@ body {
   padding: 0 15px;
 }
 
+.container__header {
+  font-size: 50px;
+  text-align: center;
+}
+
 div.pictures {
   box-sizing: border-box;
 }
@@ -52,6 +57,27 @@ td.houses__cells {
   table-layout: auto;
   text-align: center;
   width: 500px;
+}
+
+th.organisations__head__cells {
+  font: 45px bold;
+  font-family: 'Cinzel';
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
+
+td.organisations__cells {
+  font-size: 32px;
+  padding: 10px;
+  table-layout: auto;
+  text-align: center;
+  width: 500px;
+}
+
+th.character__table_headcells {
+  font-size: 30px;
 }
 
 td.characters__table__cells-name {
