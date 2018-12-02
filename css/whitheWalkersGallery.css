@@ -51,3 +51,88 @@ td.houses__cells {
   text-align: center;
   width: 500px;
 }
+
+td.characters__table__cells {
+  font-size: 20px;
+  padding: 5px;
+  table-layout: auto;
+  text-align: center;
+  width: 200px;
+}
+
+body header {
+  font-size: 100px;
+}
+
+button {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  background-color: rgb(68, 68, 70);
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  outline-color: rgba(8, 6, 31, 0.863);
+  font-size: 30px;
+}
+
+button:hover {
+  color: rgb(141, 27, 27);
+}
+
+.portre_main {
+  box-sizing: border-box;
+}
+
+.portre_main_boxes {
+  border: solid white 1px;
+  border-radius: 3%;
+  float: left;
+  font-size: 15px;
+  height: 100px;
+  margin: 5px;
+  padding: 30px;
+  position: justify;
+  text-align: center;
+}
+
+.portre_main__characters {
+  display: inline;
+}
+
+.footer {
+  background: #111;
+  color: #888;
+  text-align: center;
+}
+
+.footer a {
+  color: #ddd;
+}
+
+a.got-menu {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  background-color: rgb(15, 15, 19);
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  outline-color: rgba(8, 6, 31, 0.863);
+  text-align: center;
+}
+
+a.got-menu:hover {
+  color: rgb(100, 100, 100);
+
+}
+
+img.wwPic {
+  border: 3px solid black;
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 50px;
+  width: 100%;
+  height: 100%
+}
