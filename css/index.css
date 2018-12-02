@@ -1,4 +1,4 @@
-a {
+menu {
   width: 25%;
   float: left;
   box-sizing: border-box;
@@ -9,7 +9,7 @@ a {
   outline-color: rgba(8, 6, 31, 0.863);
   text-align: center;
 }
-a:hover {
+menu:hover {
   color: rgb(141, 27, 27);
 
 }
