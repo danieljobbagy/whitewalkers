@@ -35,7 +35,9 @@ function charactertable() {
                       </td>
                       <td class='characters__table__cells-bio' id="bio${i}"> ${gameOfThronesCharacters[i].bio}
                       </td>
-                      <td class='characters__table__cells-buttons'> <button onclick="editBio(${i})">Edit</button><input type="button" value="Delete" onclick="deleteRow(this)">
+                      <td class='characters__table__cells-buttons'> 
+                      <input type:"button" class='characters__table__buttons-edit' onclick="editBio(${i})" value="Edit">
+                      <input class='characters__table__buttons-delete' type="button" value="Delete" onclick="deleteRow(this)">
                       </td>
                 </tr>
                     `;

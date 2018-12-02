@@ -127,7 +127,7 @@ td.characters__table__cells-flag {
 }
 
 td.characters__table__cells-bio {
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px;
   table-layout: auto;
   text-align: center;
@@ -140,6 +140,29 @@ td.characters__table__cells-buttons {
   table-layout: auto;
   text-align: center;
   width: 150px;
+}
+
+.characters__table__buttons-edit {
+  background-color: rgb(80, 80, 80);
+  border: white solid 1px;
+  border-radius: 10%;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+}
+
+.characters__table__buttons-delete {
+  background-color: rgb(80, 80, 80);
+  border: white solid 1px;
+  border-radius: 10%;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+
 }
 
 body header {
@@ -170,13 +193,14 @@ div.portre_main_boxes {
   border: solid white 1px;
   border-radius: 3%;
   float: left;
-  font-family: 'Cinzel'
-    font-size: 15px;
-  height: 100px;
+  font-family: 'Cinzel';
+  font-size: 15px;
+  height: 130px;
   margin: 5px;
   padding: 30px;
   position: justify;
   text-align: center;
+  width: 10%;
 }
 
 .portre_main__characters {
