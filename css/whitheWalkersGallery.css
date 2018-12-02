@@ -1,0 +1,30 @@
+body {
+  background: black;
+  max-width: 1140px;
+  margin: auto;
+}
+
+div.pictures {
+  box-sizing: border-box;
+}
+
+div.pictures img {
+  border: solid black 2px;
+  border-radius: 3%;
+  height: 150px;
+  margin: 5px;
+  width: 23%;
+
+}
+
+div.pictures img:hover {
+  cursor: pointer;
+  background-color: white;
+  opacity: 0.6;
+}
+
+div>div {
+  display: inline;
+
+
+}
